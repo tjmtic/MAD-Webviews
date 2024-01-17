@@ -79,7 +79,7 @@ fun AccompanistWebClient(
 @Composable
 fun WebViewSample(
     url: String,
-    webViewClient: WebViewClient = WebViewClient()
+    webViewClient: CustomWebViewClient = CustomWebViewClient()
 ) {
 
     AndroidView(
